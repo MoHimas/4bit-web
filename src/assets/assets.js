@@ -31,6 +31,16 @@ import google_logo from "./google_logo.svg";
 import menu_icon_dark from "./menu_icon_dark.svg";
 import sun_icon from "./sun_icon.svg";
 import moon_icon from "./moon_icon.svg";
+import Himas from "./Himas.jpeg";
+import Ihlas from "./Ihlas.jpeg";
+import Hafis from "./Hafis.jpeg";
+import Atheek from "./Atheek.jpeg";
+import Hifasath from "./Hifasath.jpeg";
+import fikraweli from "./fikraweli.png";
+import TechBound from "./TECHBOND SQUARE WHITE -8.png";
+import mizanza from "./mizanza.jpeg";
+import npp from "./npp.jpeg";
+import npp1 from "./npp1.jpeg";
 
 export const company_logos = [
   microsoft_logo,
@@ -69,6 +79,11 @@ const assets = {
   menu_icon_dark,
   sun_icon,
   moon_icon,
+  fikraweli,
+  TechBound,
+  mizanza,
+  npp,
+  npp1,
 };
 
 export default assets;
@@ -77,29 +92,54 @@ export const teamData = [
   {
     name: "Mohamed Himas",
     title: "Digital Strategist",
-    image:
-      "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200",
+    edu: "BSc (Hons) Computer Science",
+    image: Himas,
+    link: "https://www.linkedin.com/in/mohamed-himas-2312442b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     name: "Hafis Ilham",
     title: "Marketing Director",
-    image:
-      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200",
+    edu: "BSc (Hons) Data Science",
+    image: Hafis,
+    link: "https://www.linkedin.com/in/hafis-ilham-ahamed-69b4b51b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     name: "Mohamed Ihlas",
     title: "Client Success Manager",
-    image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop",
+    edu: "BSc (Hons) Computer Networking",
+    image: Ihlas,
+    link: "https://www.linkedin.com/in/mohamed-ihlas-831757290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     name: "Mohamed Hifasath",
     title: "Creative Director",
-    image: "https://randomuser.me/api/portraits/women/10.jpg",
+    edu: "BSc (Hons) Software Engineering",
+    image: Hifasath,
+    link: "https://www.linkedin.com/in/hifasath-himsan-9ba248377?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     name: "Atheek Azmi",
     title: "Market Researcher",
-    image: "https://randomuser.me/api/portraits/women/11.jpg",
+    edu: "BSc (Hons) Software Engineering",
+    image: Atheek,
+    link: "https://www.linkedin.com/in/atheek-azmi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+];
+
+export const testimonialData = [
+  {
+    name: "Nifras Ali (B.Sc. Eng)",
+    title: "Former Campaign Manager, NPP-Beruwala",
+    desc: "4bit impressed me with their ability to combine creativity and technology seamlessly. From strategy to execution, their team consistently delivered results with professionalism and fresh ideas. I truly appreciated their dedication — often working tirelessly, even through long nights, to ensure everything was delivered at the highest standard. I would gladly recommend them to anyone looking for impactful digital work.",
+  },
+  {
+    name: "Asjath",
+    title: "CEO, Fikraweli",
+    desc: "Amazing experience, will definitely use again.",
+  },
+  {
+    name: "Sam Wilson",
+    title: "Marketing Manager, TechBound",
+    desc: "A game changer for our business.",
   },
 ];

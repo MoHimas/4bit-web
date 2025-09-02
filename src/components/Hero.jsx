@@ -16,31 +16,35 @@ const Hero = () => {
         className="inline-flex items-center gap-2 border border-gray-300 p-1.5 pr-4 rounded-full"
       >
         <img className="w-20" src={assets.group_profile} alt="" />
-        <p className="text-xs font-medium">Trusted by 10k+ people</p>
+        <p className="text-xs font-medium">Trusted by Many, Preferred by All</p>
       </motion.div>
       <motion.h1
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.8 }}
         viewport={{ once: true }}
-        className="text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium xl:leading-[95px] max-w-5xl"
+        className="text-4xl sm:text-5xl md:text-6xl xl:text-[70px] font-medium xl:leading-[95px] max-w-5xl"
       >
-        Turning imagination into{" "}
-        <span className="bg-gradient-to-r from-[#5044E5] to-[#4d8cea] bg-clip-text text-transparent">
-          digital
+        From vision to impact <br />
+        Your{" "}
+        <span className="bg-gradient-to-r from-[#F25000] to-[#ffa97b] bg-clip-text text-transparent">
+          Digital
         </span>{" "}
-        impact.
+        growth partner.
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 1 }}
         viewport={{ once: true }}
-        className="text-sm sm:text-lg font-medium text-gray-500 dark:text-white/75 max-w-4/5 sm:max-w-lg pb-3"
+        className="text-base sm:text-lg font-medium text-gray-500 dark:text-white/75 max-w-3xl leading-relaxed text-center pb-3"
       >
-        Creating meaningful connection and turning big ideas into interactive
-        digtal experince
+        4Bit Digital Marketing Agency helps businesses grow with expert social
+        media management, website design, and branding solutions. Backed by 3+
+        years of industry experience, <br /> we deliver strategies that drive
+        engagement and results.
       </motion.p>
+
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}

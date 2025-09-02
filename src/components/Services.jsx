@@ -7,23 +7,23 @@ import { motion } from "motion/react";
 const Services = () => {
   const servicesData = [
     {
-      title: "Social Media Marketing",
-      desc: "we create engaging campaigns across Instagram, Facebook, TikTok, and LinkedIn to boost visibility and drive results.",
+      title: "Expert Social Media Marketing Services",
+      desc: "Boost your online presence with our tailored social media marketing strategies, leveraging Instagram, Facebook, TikTok, and LinkedIn to drive engagement, conversions, and brand growth.",
       icon: assets.social_icon,
     },
     {
-      title: "Branding & Designing",
-      desc: "we craft unique brand identities, visuals, and designs that make your business stand out with a professional presence.",
+      title: "Professional Branding & Design Solutions",
+      desc: "Elevate your brand identity with our bespoke design services, crafting unique visuals, logos, and graphics that captivate your audience and set your business apart.",
       icon: assets.ads_icon,
     },
     {
-      title: "Content Writing & Video Production",
-      desc: "we deliver impactful content, from compelling copy to high-quality videos, designed to tell your story effectively.",
+      title: "Content Creation & Video Production",
+      desc: "Transform your brand's narrative with our high-quality content writing and video production services, delivering impactful stories, engaging copy, and visually stunning videos.",
       icon: assets.content_icon,
     },
     {
-      title: "Website Design & Development",
-      desc: "we build modern, user-friendly websites tailored to your business, ensuring performance, responsiveness, and style.",
+      title: "Custom Website Design & Development",
+      desc: "Unlock your business potential with our expert website design and development services, creating modern, responsive, and user-friendly websites that drive results.",
       icon: assets.marketing_icon,
     },
   ];
@@ -44,7 +44,15 @@ const Services = () => {
       />
 
       <Title
-        title="How can we help?"
+        title={
+          <>
+            How can we{" "}
+            <span className="bg-gradient-to-r from-[#F25000] to-[#ffa97b] bg-clip-text text-transparent">
+              Help
+            </span>
+            ?
+          </>
+        }
         desc="We grow brands online with strategy, creativity, and measurable results."
       />
       <div className="flex flex-col md:grid grid-cols-2">

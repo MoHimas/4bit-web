@@ -25,7 +25,7 @@ const Footer = ({ theme }) => {
             className="w-15 sm:w-22"
             alt=""
           />
-          <p className="max-w-md hover:text-primary">
+          <p className="max-w-md">
             We grow brands online with strategy, creativity, and measurable
             results.
           </p>

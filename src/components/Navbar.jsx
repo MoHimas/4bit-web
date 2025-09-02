@@ -33,28 +33,28 @@ const Navbar = ({ theme, setTheme }) => {
         />
         <a
           href="#"
-          className="sm:hover:border-b"
+          className="sm:hover:border-b hover:text-primary"
           onClick={() => setSidebarOpen(false)}
         >
           Home
         </a>
         <a
           href="#services"
-          className="sm:hover:border-b"
+          className="sm:hover:border-b hover:text-primary"
           onClick={() => setSidebarOpen(false)}
         >
           Services
         </a>
         <a
           href="#ourwork"
-          className="sm:hover:border-b"
+          className="sm:hover:border-b hover:text-primary"
           onClick={() => setSidebarOpen(false)}
         >
           Our Work
         </a>
         <a
           href="#contact-us"
-          className="sm:hover:border-b"
+          className="sm:hover:border-b hover:text-primary"
           onClick={() => setSidebarOpen(false)}
         >
           Contact Us

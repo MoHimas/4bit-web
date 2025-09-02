@@ -41,7 +41,14 @@ const ContactUs = () => {
       className="flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white"
     >
       <Title
-        title="Reach out to Us"
+        title={
+          <>
+            Reach out {""}{" "}
+            <span className="bg-gradient-to-r from-[#5044E5] to-[#4d8cea] bg-clip-text text-transparent">
+              4bit culture
+            </span>
+          </>
+        }
         desc="We’re here to answer, support, and guide your business growth."
       />
       <motion.form
