@@ -20,13 +20,13 @@ const OurWork = () => {
     {
       title: "Marketing Campaign for Mizanza 2025",
       desc: "Creative digital marketing campaign for Mizanza 2025, including branding, social media promotions, and audience engagement strategies to maximize event reach.",
-      image: assets.mizanza,
+      image: assets.humaisarian,
       link: "https://www.instagram.com/p/DF27YGnoDvi/?igsh=MWN4ZDZsc2V1YmV3cA==",
     },
     {
       title: "Election Campaign 2025",
       desc: "Strategically designed election campaign for 2025, featuring impactful video production, professional editing, and creative visuals to boost engagement and voter outreach.",
-      image: assets.npp1,
+      image: assets.vote,
       link: "https://www.instagram.com/npp.beruwala?igsh=bjZidDV5d2RldGVn",
     },
   ];
@@ -44,7 +44,7 @@ const OurWork = () => {
         title={
           <>
             Our Latest{" "}
-            <span className="bg-gradient-to-r from-[#5044E5] to-[#4d8cea] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#F25000] to-[#ffa97b] bg-clip-text text-transparent">
               Work
             </span>
           </>

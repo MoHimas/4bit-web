@@ -39,17 +39,22 @@ import Hifasath from "./Hifasath.jpeg";
 import fikraweli from "./fikraweli.png";
 import TechBound from "./TECHBOND SQUARE WHITE -8.png";
 import mizanza from "./mizanza.jpeg";
-import npp from "./npp.jpeg";
-import npp1 from "./npp1.jpeg";
+import asjath from "./asjath.png";
+import sarhan from "./sarhan.png";
+import nifras from "./nifras.png";
+import election2 from "./election2.png";
+import vote from "./vote.jpg";
+import whatsapp from "./whatsapp.svg";
+import tiktok from "./tiktok.svg";
+import humaisarian from "./Humaisarian.png";
+import unique from "./unique.png";
+import oba from "./OBA.png";
+import bitlogo_light from "./bitlogo2.png";
+import grouppic from "./grouppic.png";
+import tanksudda from "./tanksudda.png";
+import { image, li } from "motion/react-client";
 
-export const company_logos = [
-  microsoft_logo,
-  zoom_logo,
-  rakuten_logo,
-  coinbase_logo,
-  airbnb_logo,
-  google_logo,
-];
+export const company_logos = [fikraweli, unique, oba, TechBound, tanksudda];
 
 const assets = {
   bitlogo,
@@ -75,6 +80,8 @@ const assets = {
   twitter_icon,
   instagram_icon,
   linkedin_icon,
+  whatsapp,
+  tiktok,
   logo_dark,
   menu_icon_dark,
   sun_icon,
@@ -82,8 +89,11 @@ const assets = {
   fikraweli,
   TechBound,
   mizanza,
-  npp,
-  npp1,
+  election2,
+  vote,
+  humaisarian,
+  bitlogo_light,
+  grouppic,
 };
 
 export default assets;
@@ -91,7 +101,7 @@ export default assets;
 export const teamData = [
   {
     name: "Mohamed Himas",
-    title: "Digital Strategist",
+    title: "Marketing Strategist",
     edu: "BSc (Hons) Computer Science",
     image: Himas,
     link: "https://www.linkedin.com/in/mohamed-himas-2312442b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -105,7 +115,7 @@ export const teamData = [
   },
   {
     name: "Mohamed Ihlas",
-    title: "Client Success Manager",
+    title: "Client Manager",
     edu: "BSc (Hons) Computer Networking",
     image: Ihlas,
     link: "https://www.linkedin.com/in/mohamed-ihlas-831757290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -128,18 +138,24 @@ export const teamData = [
 
 export const testimonialData = [
   {
-    name: "Nifras Ali (B.Sc. Eng)",
-    title: "Former Campaign Manager, NPP-Beruwala",
-    desc: "4bit impressed me with their ability to combine creativity and technology seamlessly. From strategy to execution, their team consistently delivered results with professionalism and fresh ideas. I truly appreciated their dedication — often working tirelessly, even through long nights, to ensure everything was delivered at the highest standard. I would gladly recommend them to anyone looking for impactful digital work.",
-  },
-  {
-    name: "Asjath",
+    name: "Asjath Rahman (M.Sc. Civil Engineering)",
     title: "CEO, Fikraweli",
     desc: "Amazing experience, will definitely use again.",
+    image: asjath,
+    link: "https://www.linkedin.com/in/asjath-rahman-884b115b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    name: "Sam Wilson",
-    title: "Marketing Manager, TechBound",
+    name: "Nifras Ali (B.Sc. Eng)",
+    title: "Election Campaign Manager",
+    desc: "'4bit impressed me with their ability to combine creativity and technology seamlessly. From strategy to execution, their team consistently delivered results with professionalism and fresh ideas. I truly appreciated their dedication — often working tirelessly, even through long nights, to ensure everything was delivered at the highest standard. I would gladly recommend them to anyone looking for impactful digital work.'",
+    image: nifras,
+    link: "https://www.linkedin.com/in/engnifras?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    name: "Sarhan Ghouse (B.Sc. Applied Accounting)",
+    title: "Secretary OBA",
     desc: "A game changer for our business.",
+    image: sarhan,
+    link: "https://www.linkedin.com/in/sarhan-ghouse-369920ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
 ];

@@ -86,8 +86,25 @@ const Footer = ({ theme }) => {
         viewport={{ once: true }}
         className="pb-6 text-sm text-gray-500 flex justify-center sm:justify-between gap-4 flex-wrap"
       >
-        <p>Copyright 2025 © 4Bit Pvt Ltd - All Right Reserved.</p>
+        <a
+          href="https://share.google/BoHMiNYnpD5mFaSPE"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p>Copyright 2025 © 4Bit Pvt Ltd - All Right Reserved.</p>
+        </a>
         <div className="flex items-center justify-between gap-4 cursor-pointer">
+          <a
+            href="https://wa.me/message/7PTWL66TFJPNI1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={assets.whatsapp}
+              alt="WhatsApp"
+              className="cursor-pointer hover:opacity-80 transition"
+            />
+          </a>
           <a
             href="https://www.facebook.com/profile.php?id=61574719767785&mibextid=LQQJ4d"
             target="_blank"
@@ -97,13 +114,13 @@ const Footer = ({ theme }) => {
           </a>
 
           <a
-            href="https://twitter.com/yourprofile"
+            href="https://www.tiktok.com/@4bitculture?_t=ZS-8zOdT90cyNF&_r=1"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              src={assets.twitter_icon}
-              alt="Twitter"
+              src={assets.tiktok}
+              alt="Tiktok"
               className="cursor-pointer hover:opacity-80 transition"
             />
           </a>

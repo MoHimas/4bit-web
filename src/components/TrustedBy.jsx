@@ -18,7 +18,7 @@ const TrustedBy = () => {
         viewport={{ once: true }}
         className="font-semibold"
       >
-        Trusted by Leading Companies
+        Partners in our growth
       </motion.h3>
       <motion.div
         initial="hidden"
@@ -37,7 +37,7 @@ const TrustedBy = () => {
             key={index}
             src={logo}
             alt=""
-            className="max-h-5 sm:max-h-6 dark:drop-shadow-xl"
+            className="max-h-10 sm:max-h-18 dark:drop-shadow-xl"
           />
         ))}
       </motion.div>

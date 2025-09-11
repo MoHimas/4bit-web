@@ -14,8 +14,8 @@ const Testimonial = () => {
       <Title
         title={
           <>
-            Customer{" "}
-            <span className="bg-gradient-to-r from-[#5044E5] to-[#4d8cea] bg-clip-text text-transparent">
+            Client{" "}
+            <span className="bg-gradient-to-r from-[#F25000] to-[#ffa97b] bg-clip-text text-transparent">
               Testimonials
             </span>
           </>
@@ -24,20 +24,32 @@ const Testimonial = () => {
       />
       <div className="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5">
         {testimonialData.map((testimonial, index) => (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, delay: index * 0.1 }}
-            viewport={{ once: true }}
+          <a
             key={index}
-            className="flex max-sm: flex-col items-center gap-5 p-4 rounded-xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-900 shadow-xl shadow-gray-100 dark:shadow-white/5 hover:scale-103 transition-all duration-400"
+            href={testimonial.link}
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <div className="flex-1">
-              <h3 className="font-bold text-s">{testimonial.name}</h3>
-              <p className="text-s opacity-80">- {testimonial.title}</p>
-              <p className="text-s opacity-40">{testimonial.desc}</p>
-            </div>
-          </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4, delay: index * 0.1 }}
+              viewport={{ once: true }}
+              key={index}
+              className="flex max-sm: flex-col items-center gap-5 p-4 rounded-xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-900 shadow-xl shadow-gray-100 dark:shadow-white/5 hover:scale-103 transition-all duration-400 h-full"
+            >
+              <img
+                src={testimonial.image}
+                className="w-24 h-24 rounded-full"
+                alt={testimonial.name}
+              />
+              <div className="flex-1 text-center">
+                <h3 className="font-bold text-s">{testimonial.name}</h3>
+                <p className="text-s opacity-80">- {testimonial.title}</p>
+                <p className="text-s opacity-40">{testimonial.desc}</p>
+              </div>
+            </motion.div>
+          </a>
         ))}
       </div>
     </motion.div>

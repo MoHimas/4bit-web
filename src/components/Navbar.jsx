@@ -13,11 +13,19 @@ const Navbar = ({ theme, setTheme }) => {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className="flex justify-between items-center px-4 sm:px-12 lg:px-24 xl:px-40 py-4 sticky top-0 z-20 backdrop-blur-xl font-medium bg-white/50 dark:bg-gray-900/70"
     >
-      <img
-        src={theme == "dark" ? assets.bitlogo_dark : assets.bitlogo}
-        className="w-22 sm:w-20"
-        alt=""
-      />
+      <a
+        href="#"
+        onClick={(e) => {
+          e.preventDefault(); // stop default anchor jump
+          window.scrollTo({ top: 0, behavior: "smooth" }); // smooth scroll to top
+        }}
+      >
+        <img
+          src={theme == "dark" ? assets.bitlogo_dark : assets.bitlogo_light}
+          className="w-22 sm:w-20"
+          alt=""
+        />
+      </a>
       <div
         className={`text-gray-700 dark:text-white sm:text-sm ${
           !sidebarOpen

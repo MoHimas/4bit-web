@@ -10,7 +10,7 @@ const ContactUs = () => {
 
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "34b53732-e587-4af9-81ed-e6610dcbb961");
+    formData.append("access_key", "af10d480-d864-46d0-922d-ee8664c77ff5");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
@@ -44,7 +44,7 @@ const ContactUs = () => {
         title={
           <>
             Reach out {""}{" "}
-            <span className="bg-gradient-to-r from-[#5044E5] to-[#4d8cea] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#F25000] to-[#ffa97b] bg-clip-text text-transparent">
               4bit culture
             </span>
           </>
