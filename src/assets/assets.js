@@ -43,7 +43,7 @@ import asjath from "./asjath.png";
 import sarhan from "./sarhan.png";
 import nifras from "./nifras.png";
 import election2 from "./election2.png";
-import vote from "./vote.jpg";
+import vote from "./vote.jpeg";
 import whatsapp from "./whatsapp.svg";
 import tiktok from "./tiktok.svg";
 import humaisarian from "./Humaisarian.png";
